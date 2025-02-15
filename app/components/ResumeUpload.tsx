@@ -41,14 +41,18 @@ export default function ResumeUpload({
             </CollapsibleTrigger>
           </div>
           <CollapsibleContent>
-            <div className="prose max-w-none mt-4">
-              <pre className="text-sm text-gray-600 whitespace-pre-wrap font-sans">{resumeContent}</pre>
+            <div className="mt-4">
+              <pre className="bg-[#1F2937] text-gray-400 p-4 rounded-md whitespace-pre-wrap font-sans text-sm">
+                {resumeContent}
+              </pre>
             </div>
           </CollapsibleContent>
         </Collapsible>
         {!isOpen && (
-          <div className="prose max-w-none mt-2">
-            <pre className="text-sm text-gray-600 whitespace-pre-wrap font-sans line-clamp-3">{resumeContent}</pre>
+          <div className="mt-2">
+            <pre className="bg-[#1F2937] text-gray-400 p-4 rounded-md whitespace-pre-wrap font-sans text-sm line-clamp-3">
+              {resumeContent}
+            </pre>
           </div>
         )}
       </Card>
