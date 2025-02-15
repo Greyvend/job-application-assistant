@@ -49,7 +49,7 @@ export default function JobDescriptionInput({
           required
           className="w-full"
         />
-        <Button type="submit" className="bg-[#0066CC] hover:bg-[#0052a3]" disabled={isLoading}>
+        <Button type="submit" className="bg-[#0066CC] hover:bg-[#0052a3] text-white" disabled={isLoading}>
           {isLoading ? "Extracting..." : "Extract Job Details"}
         </Button>
       </form>
@@ -72,7 +72,7 @@ export default function JobDescriptionInput({
         <Button onClick={onPrev} variant="outline">
           Previous
         </Button>
-        <Button onClick={onNext} disabled={!jobDetails} className="bg-[#0066CC] hover:bg-[#0052a3]">
+        <Button onClick={onNext} disabled={!jobDetails} className="bg-[#0066CC] hover:bg-[#0052a3] text-white">
           Next
         </Button>
       </div>

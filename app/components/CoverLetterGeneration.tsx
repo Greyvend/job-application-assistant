@@ -46,7 +46,7 @@ export default function CoverLetterGeneration({
   return (
     <div className="space-y-6">
       <h2 className="text-2xl font-semibold text-[#1F2937]">Generate Cover Letter</h2>
-      <Button onClick={handleGenerate} disabled={isGenerating} className="bg-[#0066CC] hover:bg-[#0052a3]">
+      <Button onClick={handleGenerate} disabled={isGenerating} className="bg-[#0066CC] hover:bg-[#0052a3] text-white">
         {isGenerating ? "Generating..." : "Generate Cover Letter"}
       </Button>
 

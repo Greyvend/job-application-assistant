@@ -56,7 +56,7 @@ export default function ResumeUpload({
           </div>
         )}
       </Card>
-      <Button onClick={onNext} className="bg-[#0066CC] hover:bg-[#0052a3]">
+      <Button onClick={onNext} className="bg-[#0066CC] hover:bg-[#0052a3] text-white">
         Next
       </Button>
     </div>
