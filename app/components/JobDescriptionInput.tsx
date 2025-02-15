@@ -47,7 +47,7 @@ export default function JobDescriptionInput({
           onChange={(e) => setUrl(e.target.value)}
           placeholder="https://example.com/job-posting"
           required
-          className="w-full"
+          className="w-full placeholder:text-gray-400"
         />
         <Button type="submit" className="bg-[#0066CC] hover:bg-[#0052a3] text-white" disabled={isLoading}>
           {isLoading ? "Extracting..." : "Extract Job Details"}
